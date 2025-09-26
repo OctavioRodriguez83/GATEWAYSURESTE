@@ -1,0 +1,66 @@
+{% extends "../nav/index.html" %}
+{% load static %}
+
+      {% block link_styles %}
+      <link href="{% static 'publico/css/contacts/contactsstyles.css' %}" rel="stylesheet" />
+      {% endblock %}
+
+      {% block cuerpo %}
+
+
+        <div class="mivi">
+          <h1>Correos</h1>
+          <div id="cards">
+
+              <div class="card">
+                  <div class="galeria">
+                    <p >
+                      <a class="redS"href="mailto:rosa.gomez@gatewaysureste.com"><i class="fa-regular fa-envelope"></i>&nbsp;rosa.gomez@gatewaysureste.com</a>
+                    </p>
+                    <p >
+                      <a class="redS"href="mailto:ventas@gatewaysureste.com"><i class="fa-regular fa-envelope"></i>&nbsp;ventas@gatewaysureste.com</a>
+                    </p>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="mivi">
+          <h1>Telefonos</h1>
+          <div id="cards">
+
+              <div class="card">
+                  <div class="galeria">
+                    
+                    <p >
+                      <a class="redS" href="tel:+5219982077219">
+                        <i class="fa-solid fa-phone"></i>&nbsp;998 207 7219
+                      </a>
+                    </p>
+                    <p >
+                      <a class="redS" href="tel:+5219982420977">
+                        <i class="fa-solid fa-phone"></i>&nbsp;998 242 0977
+                      </a>
+                    </p>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="mivi">
+          <h1>Redes sosciales</h1>
+          <div id="cards">
+
+              <div class="card">
+                  <div class="galeria">
+                    <p><a  class="redS"href="https://www.facebook.com/gatewaysurestedemexico" target="_blank"> <i class="fab fa-facebook"></i>&nbsp;Gateway Sureste de Mexico</a>
+                    </p>
+                    <p><a  class="redS"href="https://www.instagram.com/gatewaysurestedemexico" target="_blank"> <i  class="fab fa-instagram"></i>&nbsp;@gatewaysurestedemexico</a>
+                    </p>  
+                  </div>
+              </div>
+          </div>
+        </div>
+
+          <script src="{% static 'publico/js/home/home_scripts.js' %}"></script>
+      {% endblock %}
