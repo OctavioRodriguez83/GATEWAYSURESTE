@@ -74,7 +74,7 @@
 
 .announcement-bar {
   display: flex;
-  background-color: red;
+  background-color: #803D44;
   padding: 0; /* Asegura que no haya padding en la barra principal 
   position: fixed;*/
   bottom: 0;
@@ -96,7 +96,7 @@
 .announcements-wrapper {
   display: inline-block;
   white-space: nowrap;
-  animation: scrollAnunciosCiclico 35s linear infinite;
+  /*animation: scrollAnunciosCiclico 35s linear infinite;*/
   font-size: 0; /* ELIMINA ESPACIOS ENTRE INLINE-BLOCKS (para los 'a' hijos) */
   margin: 0; /* Asegura que no haya márgenes en el wrapper */
   padding: 0; /* Asegura que no haya rellenos en el wrapper */
